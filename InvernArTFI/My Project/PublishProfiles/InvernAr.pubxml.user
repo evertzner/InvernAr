@@ -1,0 +1,430 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo es utilizado por el proceso de paquete/publicación de nuestro proyecto Web. Puede personalizar el comportamiento de este proceso
+editando este archivo MSBuild. Para conocer más acerca de esto, visite http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>http://localhost/InvernAr</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="archivos/LeydeProteccióndeDatosPersonales.pdf">
+      <publishTime>10/10/2016 18:53:19</publishTime>
+    </File>
+    <File Include="AsignacionRoles.aspx">
+      <publishTime>11/17/2016 14:15:49</publishTime>
+    </File>
+    <File Include="BackUpRestore.aspx">
+      <publishTime>11/11/2016 10:04:02</publishTime>
+    </File>
+    <File Include="BajaNewsletter.aspx">
+      <publishTime>11/11/2016 16:08:46</publishTime>
+    </File>
+    <File Include="bin/AjaxControlToolkit.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/BLL.dll">
+      <publishTime>12/14/2016 19:04:40</publishTime>
+    </File>
+    <File Include="bin/BLL.pdb">
+      <publishTime>12/14/2016 19:04:40</publishTime>
+    </File>
+    <File Include="bin/DAL.dll">
+      <publishTime>12/14/2016 19:04:39</publishTime>
+    </File>
+    <File Include="bin/DAL.pdb">
+      <publishTime>12/14/2016 19:04:39</publishTime>
+    </File>
+    <File Include="bin/ENTITIES.dll">
+      <publishTime>12/14/2016 19:04:40</publishTime>
+    </File>
+    <File Include="bin/ENTITIES.pdb">
+      <publishTime>12/14/2016 19:04:40</publishTime>
+    </File>
+    <File Include="bin/InvernArTFI.dll">
+      <publishTime>12/14/2016 19:13:24</publishTime>
+    </File>
+    <File Include="bin/InvernArTFI.pdb">
+      <publishTime>12/14/2016 19:13:24</publishTime>
+    </File>
+    <File Include="bin/InvernArTFI.xml">
+      <publishTime>12/14/2016 19:13:24</publishTime>
+    </File>
+    <File Include="bin/MAPPER.dll">
+      <publishTime>12/14/2016 19:04:40</publishTime>
+    </File>
+    <File Include="bin/MAPPER.pdb">
+      <publishTime>12/14/2016 19:04:40</publishTime>
+    </File>
+    <File Include="bin/Select.HtmlToPdf.dll">
+      <publishTime>10/14/2016 05:05:19</publishTime>
+    </File>
+    <File Include="Bitacora.aspx">
+      <publishTime>11/16/2016 17:08:45</publishTime>
+    </File>
+    <File Include="Catalogo.aspx">
+      <publishTime>11/16/2016 17:12:22</publishTime>
+    </File>
+    <File Include="Chat.aspx">
+      <publishTime>12/13/2016 15:19:39</publishTime>
+    </File>
+    <File Include="CompararProductos.aspx">
+      <publishTime>11/16/2016 17:14:35</publishTime>
+    </File>
+    <File Include="Comprar.aspx">
+      <publishTime>11/13/2016 16:04:02</publishTime>
+    </File>
+    <File Include="Compras.aspx">
+      <publishTime>10/29/2016 16:46:45</publishTime>
+    </File>
+    <File Include="ConfiguracionInvernadero.aspx">
+      <publishTime>12/01/2016 13:43:52</publishTime>
+    </File>
+    <File Include="Content/bajanewsletter.css">
+      <publishTime>10/13/2016 17:17:53</publishTime>
+    </File>
+    <File Include="Content/bootstrap-datetimepicker.css">
+      <publishTime>09/16/2016 21:38:15</publishTime>
+    </File>
+    <File Include="Content/bootstrap-datetimepicker.min.css">
+      <publishTime>09/16/2016 21:38:15</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css">
+      <publishTime>08/21/2016 22:17:02</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css.map">
+      <publishTime>08/21/2016 22:17:02</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css">
+      <publishTime>08/21/2016 22:17:02</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css.map">
+      <publishTime>08/21/2016 22:17:02</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>08/21/2016 22:17:02</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>08/21/2016 22:17:02</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>08/30/2016 14:56:40</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css.map">
+      <publishTime>08/21/2016 22:17:02</publishTime>
+    </File>
+    <File Include="Content/Catalogo.css">
+      <publishTime>10/15/2016 18:03:08</publishTime>
+    </File>
+    <File Include="Content/chat.css">
+      <publishTime>09/26/2016 19:53:25</publishTime>
+    </File>
+    <File Include="Content/ConfiguracionInvernadero.css">
+      <publishTime>11/02/2016 21:18:29</publishTime>
+    </File>
+    <File Include="Content/font-awesome.min.css">
+      <publishTime>10/28/2016 14:27:35</publishTime>
+    </File>
+    <File Include="Content/inicio.css">
+      <publishTime>12/14/2016 19:13:20</publishTime>
+    </File>
+    <File Include="Content/jumbotron.css">
+      <publishTime>10/13/2016 17:13:30</publishTime>
+    </File>
+    <File Include="Content/MasterPage.css">
+      <publishTime>12/14/2016 19:13:20</publishTime>
+    </File>
+    <File Include="Content/materialize.css">
+      <publishTime>08/27/2016 20:11:21</publishTime>
+    </File>
+    <File Include="Content/materialize.min.css">
+      <publishTime>08/27/2016 20:11:21</publishTime>
+    </File>
+    <File Include="Content/narrow-jumbotron.css">
+      <publishTime>10/13/2016 17:11:25</publishTime>
+    </File>
+    <File Include="Content/simple-sidebar.css">
+      <publishTime>10/08/2016 19:22:42</publishTime>
+    </File>
+    <File Include="CuentaCorriente.aspx">
+      <publishTime>11/16/2016 17:22:14</publishTime>
+    </File>
+    <File Include="Cuerpos de mail/CambioContrasena.html">
+      <publishTime>09/27/2016 14:02:36</publishTime>
+    </File>
+    <File Include="Cuerpos de mail/Factura.html">
+      <publishTime>10/19/2016 17:26:26</publishTime>
+    </File>
+    <File Include="Cuerpos de mail/FacturaAdjunto.html">
+      <publishTime>11/02/2016 21:19:11</publishTime>
+    </File>
+    <File Include="Cuerpos de mail/Newsletter.html">
+      <publishTime>10/13/2016 11:55:21</publishTime>
+    </File>
+    <File Include="Cuerpos de mail/NotaCreditoAdjunto.html">
+      <publishTime>10/23/2016 15:36:16</publishTime>
+    </File>
+    <File Include="Cuerpos de mail/NuevoUsuario.html">
+      <publishTime>09/27/2016 14:02:25</publishTime>
+    </File>
+    <File Include="Cuerpos de mail/PresupuestoAdjunto.html">
+      <publishTime>11/02/2016 19:26:49</publishTime>
+    </File>
+    <File Include="Cuerpos de mail/RecuperarContrasena.html">
+      <publishTime>10/25/2016 18:33:27</publishTime>
+    </File>
+    <File Include="DatosPersonales.aspx">
+      <publishTime>11/16/2016 17:28:06</publishTime>
+    </File>
+    <File Include="DetalleProducto.aspx">
+      <publishTime>11/12/2016 16:46:25</publishTime>
+    </File>
+    <File Include="Encuestas.aspx">
+      <publishTime>11/16/2016 17:28:24</publishTime>
+    </File>
+    <File Include="FAQ.aspx">
+      <publishTime>11/16/2016 17:30:59</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>08/21/2016 22:17:02</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>08/21/2016 22:17:02</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>08/21/2016 22:17:02</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>08/21/2016 22:17:02</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>08/21/2016 22:17:02</publishTime>
+    </File>
+    <File Include="fonts/roboto/Roboto-Bold.eot">
+      <publishTime>08/27/2016 20:12:14</publishTime>
+    </File>
+    <File Include="fonts/roboto/Roboto-Bold.ttf">
+      <publishTime>08/27/2016 20:12:14</publishTime>
+    </File>
+    <File Include="fonts/roboto/Roboto-Bold.woff">
+      <publishTime>08/27/2016 20:12:14</publishTime>
+    </File>
+    <File Include="fonts/roboto/Roboto-Bold.woff2">
+      <publishTime>08/27/2016 20:12:14</publishTime>
+    </File>
+    <File Include="fonts/roboto/Roboto-Light.eot">
+      <publishTime>08/27/2016 20:12:14</publishTime>
+    </File>
+    <File Include="fonts/roboto/Roboto-Light.ttf">
+      <publishTime>08/27/2016 20:12:14</publishTime>
+    </File>
+    <File Include="fonts/roboto/Roboto-Light.woff">
+      <publishTime>08/27/2016 20:12:14</publishTime>
+    </File>
+    <File Include="fonts/roboto/Roboto-Light.woff2">
+      <publishTime>08/27/2016 20:12:14</publishTime>
+    </File>
+    <File Include="fonts/roboto/Roboto-Medium.eot">
+      <publishTime>08/27/2016 20:12:14</publishTime>
+    </File>
+    <File Include="fonts/roboto/Roboto-Medium.ttf">
+      <publishTime>08/27/2016 20:12:14</publishTime>
+    </File>
+    <File Include="fonts/roboto/Roboto-Medium.woff">
+      <publishTime>08/27/2016 20:12:14</publishTime>
+    </File>
+    <File Include="fonts/roboto/Roboto-Medium.woff2">
+      <publishTime>08/27/2016 20:12:14</publishTime>
+    </File>
+    <File Include="fonts/roboto/Roboto-Regular.eot">
+      <publishTime>08/27/2016 20:12:14</publishTime>
+    </File>
+    <File Include="fonts/roboto/Roboto-Regular.ttf">
+      <publishTime>08/27/2016 20:12:14</publishTime>
+    </File>
+    <File Include="fonts/roboto/Roboto-Regular.woff">
+      <publishTime>08/27/2016 20:12:14</publishTime>
+    </File>
+    <File Include="fonts/roboto/Roboto-Regular.woff2">
+      <publishTime>08/27/2016 20:12:14</publishTime>
+    </File>
+    <File Include="fonts/roboto/Roboto-Thin.eot">
+      <publishTime>08/27/2016 20:12:14</publishTime>
+    </File>
+    <File Include="fonts/roboto/Roboto-Thin.ttf">
+      <publishTime>08/27/2016 20:12:14</publishTime>
+    </File>
+    <File Include="fonts/roboto/Roboto-Thin.woff">
+      <publishTime>08/27/2016 20:12:14</publishTime>
+    </File>
+    <File Include="fonts/roboto/Roboto-Thin.woff2">
+      <publishTime>08/27/2016 20:12:14</publishTime>
+    </File>
+    <File Include="GestionCatalogo.aspx">
+      <publishTime>11/16/2016 17:40:56</publishTime>
+    </File>
+    <File Include="GestionEncuestas.aspx">
+      <publishTime>11/17/2016 14:26:15</publishTime>
+    </File>
+    <File Include="GestionNoticias.aspx">
+      <publishTime>11/13/2016 15:27:30</publishTime>
+    </File>
+    <File Include="images/05_Edit_16x16.png">
+      <publishTime>09/20/2016 01:04:56</publishTime>
+    </File>
+    <File Include="images/14_Delete_16x16.png">
+      <publishTime>09/20/2016 01:04:56</publishTime>
+    </File>
+    <File Include="images/15_Tick_16x16.png">
+      <publishTime>09/20/2016 01:04:56</publishTime>
+    </File>
+    <File Include="images/Invernadero 01.jpg">
+      <publishTime>09/28/2016 17:27:44</publishTime>
+    </File>
+    <File Include="images/Invernadero 02.jpg">
+      <publishTime>10/28/2016 16:46:22</publishTime>
+    </File>
+    <File Include="images/Invernadero 03.jpg">
+      <publishTime>10/28/2016 16:46:22</publishTime>
+    </File>
+    <File Include="images/Invernadero 04.jpg">
+      <publishTime>10/28/2016 16:46:22</publishTime>
+    </File>
+    <File Include="images/LogoWeb Gris.png">
+      <publishTime>09/02/2016 12:22:19</publishTime>
+    </File>
+    <File Include="images/LogoWeb.jpg">
+      <publishTime>08/27/2016 19:30:58</publishTime>
+    </File>
+    <File Include="images/LogoWeb.png">
+      <publishTime>08/19/2016 16:13:45</publishTime>
+    </File>
+    <File Include="images/Pasto 01.jpg">
+      <publishTime>09/28/2016 16:35:20</publishTime>
+    </File>
+    <File Include="images/Pasto 02.jpg">
+      <publishTime>09/28/2016 16:35:20</publishTime>
+    </File>
+    <File Include="images/Pasto Canvas.jpg">
+      <publishTime>11/02/2016 16:09:38</publishTime>
+    </File>
+    <File Include="images/Textura metal.jpg">
+      <publishTime>11/02/2016 19:05:46</publishTime>
+    </File>
+    <File Include="InformacionSensores.aspx">
+      <publishTime>11/16/2016 23:52:24</publishTime>
+    </File>
+    <File Include="Inicio.aspx">
+      <publishTime>12/14/2016 19:13:20</publishTime>
+    </File>
+    <File Include="Instalaciones.aspx">
+      <publishTime>11/17/2016 00:15:24</publishTime>
+    </File>
+    <File Include="Master.Master">
+      <publishTime>12/14/2016 19:14:24</publishTime>
+    </File>
+    <File Include="Multidioma.aspx">
+      <publishTime>11/17/2016 01:21:20</publishTime>
+    </File>
+    <File Include="Newsletter.aspx">
+      <publishTime>11/13/2016 15:43:28</publishTime>
+    </File>
+    <File Include="Noticias.aspx">
+      <publishTime>11/17/2016 00:38:16</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>09/16/2016 18:35:02</publishTime>
+    </File>
+    <File Include="Pedidos.aspx">
+      <publishTime>11/01/2016 18:57:29</publishTime>
+    </File>
+    <File Include="PerfilUsuario.aspx">
+      <publishTime>11/17/2016 00:42:32</publishTime>
+    </File>
+    <File Include="Productos.aspx">
+      <publishTime>11/13/2016 14:54:38</publishTime>
+    </File>
+    <File Include="QuienesSomos.aspx">
+      <publishTime>10/10/2016 19:32:18</publishTime>
+    </File>
+    <File Include="RecuperoContrasena.aspx">
+      <publishTime>11/17/2016 00:46:52</publishTime>
+    </File>
+    <File Include="Registracion.aspx">
+      <publishTime>11/17/2016 01:44:27</publishTime>
+    </File>
+    <File Include="ReporteCancelacion.aspx">
+      <publishTime>11/17/2016 00:48:59</publishTime>
+    </File>
+    <File Include="ReporteEncuesta.aspx">
+      <publishTime>11/17/2016 00:49:41</publishTime>
+    </File>
+    <File Include="ReporteFichaOpinion.aspx">
+      <publishTime>11/17/2016 00:51:27</publishTime>
+    </File>
+    <File Include="ReporteVentas.aspx">
+      <publishTime>11/17/2016 00:54:16</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap-datetimepicker.js">
+      <publishTime>09/16/2016 21:39:14</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap-datetimepicker.min.js">
+      <publishTime>09/16/2016 21:39:14</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap-datetimepicker.ru.js">
+      <publishTime>09/16/2016 21:50:31</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>08/21/2016 22:17:02</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>10/28/2016 14:29:03</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap2.min.js">
+      <publishTime>10/28/2016 14:28:51</publishTime>
+    </File>
+    <File Include="Scripts/html2canvas.js">
+      <publishTime>11/02/2016 15:51:22</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.9.1.js">
+      <publishTime>08/21/2016 22:16:58</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.9.1.min.js">
+      <publishTime>08/21/2016 22:16:58</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.9.1.min.map">
+      <publishTime>08/21/2016 22:16:58</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui.min.js">
+      <publishTime>11/02/2016 15:50:22</publishTime>
+    </File>
+    <File Include="Scripts/jquery.min.js">
+      <publishTime>10/28/2016 14:26:29</publishTime>
+    </File>
+    <File Include="Scripts/Master.js">
+      <publishTime>10/10/2016 22:57:46</publishTime>
+    </File>
+    <File Include="Scripts/materialize.js">
+      <publishTime>08/27/2016 20:12:21</publishTime>
+    </File>
+    <File Include="Scripts/materialize.min.js">
+      <publishTime>08/27/2016 20:12:20</publishTime>
+    </File>
+    <File Include="SeguridadUsuarios.aspx">
+      <publishTime>11/12/2016 18:42:49</publishTime>
+    </File>
+    <File Include="Sensores.aspx">
+      <publishTime>11/16/2016 14:35:29</publishTime>
+    </File>
+    <File Include="Usuarios.aspx">
+      <publishTime>11/17/2016 14:55:58</publishTime>
+    </File>
+    <File Include="Validacion.aspx">
+      <publishTime>10/10/2016 19:34:30</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>12/14/2016 19:05:32</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

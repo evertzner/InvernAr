@@ -1,0 +1,8 @@
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernArTFI\ENTITIES\bin\Release\ENTITIES.dll
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernArTFI\ENTITIES\bin\Release\ENTITIES.pdb
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernArTFI\ENTITIES\bin\Release\ENTITIES.xml
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernArTFI\ENTITIES\obj\Release\ENTITIES.Resources.resources
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernArTFI\ENTITIES\obj\Release\ENTITIES.vbproj.GenerateResource.Cache
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernArTFI\ENTITIES\obj\Release\ENTITIES.dll
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernArTFI\ENTITIES\obj\Release\ENTITIES.xml
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernArTFI\ENTITIES\obj\Release\ENTITIES.pdb

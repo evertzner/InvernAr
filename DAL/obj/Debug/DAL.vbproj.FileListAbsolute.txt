@@ -1,0 +1,16 @@
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernAr\DAL\bin\Debug\DAL.dll
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernAr\DAL\bin\Debug\DAL.pdb
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernAr\DAL\bin\Debug\DAL.xml
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernAr\DAL\obj\Debug\DAL.Resources.resources
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernAr\DAL\obj\Debug\DAL.vbproj.GenerateResource.Cache
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernAr\DAL\obj\Debug\DAL.dll
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernAr\DAL\obj\Debug\DAL.xml
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernAr\DAL\obj\Debug\DAL.pdb
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernArTFI\DAL\bin\Debug\DAL.dll
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernArTFI\DAL\bin\Debug\DAL.pdb
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernArTFI\DAL\bin\Debug\DAL.xml
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernArTFI\DAL\obj\Debug\DAL.Resources.resources
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernArTFI\DAL\obj\Debug\DAL.vbproj.GenerateResource.Cache
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernArTFI\DAL\obj\Debug\DAL.dll
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernArTFI\DAL\obj\Debug\DAL.xml
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernArTFI\DAL\obj\Debug\DAL.pdb

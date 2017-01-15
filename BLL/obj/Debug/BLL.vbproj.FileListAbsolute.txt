@@ -1,0 +1,54 @@
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernAr\BLL\bin\Debug\BLL.dll
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernAr\BLL\bin\Debug\BLL.pdb
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernAr\BLL\bin\Debug\BLL.xml
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernAr\BLL\bin\Debug\ENTITIES.dll
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernAr\BLL\bin\Debug\MAPPER.dll
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernAr\BLL\bin\Debug\DAL.dll
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernAr\BLL\bin\Debug\ENTITIES.pdb
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernAr\BLL\bin\Debug\ENTITIES.xml
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernAr\BLL\bin\Debug\MAPPER.pdb
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernAr\BLL\bin\Debug\MAPPER.xml
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernAr\BLL\bin\Debug\DAL.pdb
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernAr\BLL\bin\Debug\DAL.xml
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernAr\BLL\obj\Debug\BLL.vbprojResolveAssemblyReference.cache
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernAr\BLL\obj\Debug\BLL.Resources.resources
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernAr\BLL\obj\Debug\BLL.vbproj.GenerateResource.Cache
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernAr\BLL\obj\Debug\BLL.dll
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernAr\BLL\obj\Debug\BLL.xml
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernAr\BLL\obj\Debug\BLL.pdb
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernArTFI\BLL\bin\Debug\BLL.dll
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernArTFI\BLL\bin\Debug\BLL.pdb
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernArTFI\BLL\bin\Debug\BLL.xml
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernArTFI\BLL\bin\Debug\ENTITIES.dll
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernArTFI\BLL\bin\Debug\MAPPER.dll
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernArTFI\BLL\bin\Debug\DAL.dll
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernArTFI\BLL\bin\Debug\ENTITIES.pdb
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernArTFI\BLL\bin\Debug\ENTITIES.xml
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernArTFI\BLL\bin\Debug\MAPPER.pdb
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernArTFI\BLL\bin\Debug\MAPPER.xml
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernArTFI\BLL\bin\Debug\DAL.pdb
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernArTFI\BLL\bin\Debug\DAL.xml
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernArTFI\BLL\obj\Debug\BLL.vbprojResolveAssemblyReference.cache
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernArTFI\BLL\obj\Debug\BLL.Resources.resources
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernArTFI\BLL\obj\Debug\BLL.vbproj.GenerateResource.Cache
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernArTFI\BLL\obj\Debug\BLL.dll
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernArTFI\BLL\obj\Debug\BLL.xml
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernArTFI\BLL\obj\Debug\BLL.pdb
+C:\Users\Esteban\Desktop\InvernArTFI\BLL\bin\Debug\BLL.dll
+C:\Users\Esteban\Desktop\InvernArTFI\BLL\bin\Debug\BLL.pdb
+C:\Users\Esteban\Desktop\InvernArTFI\BLL\bin\Debug\BLL.xml
+C:\Users\Esteban\Desktop\InvernArTFI\BLL\bin\Debug\ENTITIES.dll
+C:\Users\Esteban\Desktop\InvernArTFI\BLL\bin\Debug\MAPPER.dll
+C:\Users\Esteban\Desktop\InvernArTFI\BLL\bin\Debug\DAL.dll
+C:\Users\Esteban\Desktop\InvernArTFI\BLL\bin\Debug\ENTITIES.pdb
+C:\Users\Esteban\Desktop\InvernArTFI\BLL\bin\Debug\ENTITIES.xml
+C:\Users\Esteban\Desktop\InvernArTFI\BLL\bin\Debug\MAPPER.pdb
+C:\Users\Esteban\Desktop\InvernArTFI\BLL\bin\Debug\MAPPER.xml
+C:\Users\Esteban\Desktop\InvernArTFI\BLL\bin\Debug\DAL.pdb
+C:\Users\Esteban\Desktop\InvernArTFI\BLL\bin\Debug\DAL.xml
+C:\Users\Esteban\Desktop\InvernArTFI\BLL\obj\Debug\BLL.vbprojResolveAssemblyReference.cache
+C:\Users\Esteban\Desktop\InvernArTFI\BLL\obj\Debug\BLL.Resources.resources
+C:\Users\Esteban\Desktop\InvernArTFI\BLL\obj\Debug\BLL.vbproj.GenerateResource.Cache
+C:\Users\Esteban\Desktop\InvernArTFI\BLL\obj\Debug\BLL.dll
+C:\Users\Esteban\Desktop\InvernArTFI\BLL\obj\Debug\BLL.xml
+C:\Users\Esteban\Desktop\InvernArTFI\BLL\obj\Debug\BLL.pdb

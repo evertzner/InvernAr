@@ -1,0 +1,349 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Master.master.vb" Inherits="InvernArTFI.Master" %>
+
+<!DOCTYPE html>
+
+<html>
+<head id="head1" runat="server">
+	<title>InvernAr</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="Content/bootstrap.min.css" />
+	<script src="Scripts/jquery-1.9.1.min.js"></script>
+	<script src="Scripts/bootstrap.min.js"></script>
+	<script src="Scripts/Master.js"></script>
+	<%--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>--%>
+	<script src="Scripts/jquery.min.js"></script>
+	<%--<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>--%>
+	<script src="Scripts/bootstrap2.min.js"></script>
+	<link rel="stylesheet" href="/Content/inicio.css" />
+	<%--<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">--%>
+	<link href="Content/font-awesome.min.css" rel="stylesheet" />
+	<link href="Content/simple-sidebar.css" rel="stylesheet" />
+	<link href="Content/MasterPage.css" rel="stylesheet" />
+	<link href="Content/Catalogo.css" rel="stylesheet" />
+	<script>
+		$(document).ready(function () {
+			$("#myModal").on('hide.bs.modal', function () {
+				document.getElementById('txtMasterEmailRecupero').value = "";
+				document.getElementById('revCorreoElectronicoRC').innerText = "";
+			});
+			$("#ModalNewsletter").on('hide.bs.modal', function () {
+				document.getElementById('txtMasterEmailNewsletter').value = "";
+				document.getElementById('revCorreoElectronicoNewsletter').innerText = "";
+			});
+		});
+</script>
+</head>
+<body>
+	<form id="formMasterFormulario" method="post" runat="server">
+		<asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+						aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="Inicio.aspx">
+						<img alt="Brand" src="images/LogoWeb.png"></a>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div id="divMasterControles" runat="server">
+					<div class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+						<div class="navbar-form navbar-right">
+							<div class="dropdown">
+								<button class="btn btn-default dropdown-toggle" type="button" id="btnMasterUsuario" runat="server" data-toggle="dropdown"
+									aria-haspopup="true" aria-expanded="true">
+									<span class="caret"></span>
+								</button>
+								<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+									<li><a href="DatosPersonales.aspx" id="lnkMasterDatosPersonales" runat="server"></a></li>
+									<li role="separator" class="divider"></li>
+									<li><a href="Compras.aspx" id="lnkMasterCompras" runat="server"></a></li>
+									<li><a href="CuentaCorriente.aspx" id="lnkMasterCuentaCorriente" runat="server"></a></li>
+									<li role="separator" class="divider" runat="server" id="separatorMasterCompras"></li>
+									<li><a href="InformacionSensores.aspx" id="lnkMasterInformacionSensores" runat="server"></a></li>
+									<li role="separator" class="divider" runat="server" id="separatorMasterInformacionSensores"></li>
+									<li><a href="#" id="lnkMasterLogOut" runat="server"></a></li>
+								</ul>
+								<a href="Chat.aspx" id="aMasterChat" runat="server" class="glyphicons glyphicons-message-empty"><span id="buzon" runat="server"
+									class="glyphicon glyphicon-inbox"></span></a>
+								<a href="Comprar.aspx" id="aMasterCarrito" runat="server"><span id="carrito" runat="server"
+									class="glyphicon glyphicon-piggy-bank"></span></a>
+							</div>
+							<div class="form-group">
+								<input id="txtMasterEmail" runat="server" type="email" class="form-control">
+							</div>
+							<div class="form-group">
+								<input id="txtMasterPassword" runat="server" type="password" class="form-control">
+							</div>
+							<div class="form-group">
+								<button id="btnMasterOlvidoContrasena" runat="server" type="button" class="btn btn-link" 
+									onclick="$('#myModal').modal({backdrop: 'static', keyboard: false});" tabindex="99">¿Olvidó su contraseña?</button>
+							</div>
+							<button id="btnMasterIniciarSesion" runat="server" type="button" class="btn btn-success"></button>
+							<a id="btnMasterRegistrarse" href="Registracion.aspx" runat="server" class="btn btn-success"></a>
+						</div>
+						<div class="modal fade" id="myModal" role="dialog">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button id="btnMasterRecuperarContrasenaClose" runat="server" type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+										<h4 class="modal-title" id="modalMasterTitle" runat="server"></h4>
+									</div>
+									<div class="modal-body">
+										<div class="form-group">
+											<input type="email" class="form-control" id="txtMasterEmailRecupero" runat="server" placeholder="Ingrese su email">
+											<asp:RegularExpressionValidator ID="revCorreoElectronicoRC" runat="server"
+												ControlToValidate="txtMasterEmailRecupero"
+												ValidationExpression="^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$" 
+												ForeColor="Red" Font-Bold="true">
+											</asp:RegularExpressionValidator>
+										</div>
+									</div>
+									<div class="modal-footer">
+										<button id="btnMasterRecuperarContrasena" runat="server" type="button" class="btn btn-primary">Enviar</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="modal fade" id="ModalNewsletter" role="dialog">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button id="btnMasterSuscribirseNewsletterClose" runat="server" type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+										<h4 class="modal-title" id="modalMasterTitleNewsletter" runat="server"></h4>
+									</div>
+									<div class="modal-body">
+										<div class="form-group">
+											<input type="email" class="form-control" id="txtMasterEmailNewsletter" runat="server" placeholder="Ingrese su email">
+											<asp:RegularExpressionValidator ID="revCorreoElectronicoNewsletter" runat="server"
+												ControlToValidate="txtMasterEmailNewsletter"
+												ValidationExpression="^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$" 
+												ForeColor="Red" Font-Bold="true">
+											</asp:RegularExpressionValidator>
+										</div>
+										<div class="form-group">
+											<label id="lblMasterCategoria" runat="server" class="control-label" for="ddlMasterCategoria"></label>
+											<asp:DropDownList ID="ddlMasterCategoria" class="form-control" runat="server"></asp:DropDownList>
+										</div>
+									</div>
+									<div class="modal-footer">
+										<button id="btnMasterSuscribirseNewsletter" runat="server" type="button" class="btn btn-primary">Enviar</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="modal fade" id="modalTC" role="dialog">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+										<h4 class="modal-title" id="modalRegistracionTitulo" runat="server"></h4>
+									</div>
+									<div class="modal-body">
+										<p><strong>1. Introducción</strong></p>
+										<p>
+											Las presentes condiciones generales de uso de la página web, regulan los términos y condiciones de acceso y uso de 
+											www.direcciónweb.com, propiedad de (indicar el nombre de la empresa o profesional propietario de el portal), con 
+											domicilio en (indicar) y con Código de Identificación Fiscal número (indicar), en adelante, «la Empresa», que el 
+											usuario del Portal deberá de leer y aceptar para usar todos los servicios e información que se facilitan desde el 
+											portal. El mero acceso y/o utilización del portal, de todos o parte de sus contenidos y/o servicios significa la 
+											plena aceptación de las presentes condiciones generales de uso.
+										</p>
+										<p><strong>2. Condiciones de uso</strong></p>
+										<p>
+											Las presentes condiciones generales de uso del portal regulan el acceso y la utilización del portal, incluyendo los 
+											contenidos y los servicios puestos a disposición de los usuarios en y/o a través del portal, bien por el portal, 
+											bien por sus usuarios, bien por terceros. No obstante, el acceso y la utilización de ciertos contenidos y/o 
+											servicios puede encontrarse sometido a determinadas condiciones específicas.
+										</p>
+										<p><strong>3.   Modificaciones</strong></p>
+										<p>
+											La empresa se reserva la facultad de modificar en cualquier momento las condiciones generales de uso del portal. En 
+											todo caso, se recomienda que consulte periódicamente los presentes términos de uso del portal, ya que pueden ser
+											 modificados.
+										</p>
+										<p><strong>4. Obligaciones del Usuario</strong></p>
+										<p>
+											El usuario deberá respetar en todo momento los términos y condiciones establecidos en las presentes condiciones 
+											generales de uso del portal. De forma expresa el usuario manifiesta que utilizará el portal de forma diligente y 
+											asumiendo cualquier responsabilidad que pudiera derivarse del incumplimiento de las normas.
+										</p>
+										<p>
+											Así mismo, el usuario no podrá utilizar el portal para transmitir, almacenar, divulgar promover o distribuir datos 
+											o contenidos que sean portadores de virus o cualquier otro código informático, archivos o programas diseñados para 
+											interrumpir, destruir o perjudicar el funcionamiento de cualquier programa o equipo informático o de 
+											telecomunicaciones.
+										</p>
+										<p><strong>5. Responsabilidad del portal</strong></p>
+										<p>
+											El usuario conoce y acepta que el portal no otorga ninguna garantía de cualquier naturaleza, ya sea expresa o 
+											implícita, sobre los datos, contenidos, información y servicios que se incorporan y ofrecen desde el Portal.
+										</p>
+										<p>
+											Exceptuando los casos que la Ley imponga expresamente lo contrario, y exclusivamente con la medida y extensión en 
+											que lo imponga, el Portal no garantiza ni asume responsabilidad alguna respecto a los posibles daños y perjuicios 
+											causados por el uso y utilización de la información, datos y servicios del Portal.
+										</p>
+										<p>
+											En todo caso, el Portal excluye cualquier responsabilidad por los daños y perjuicios que puedan deberse a la 
+											información y/o servicios prestados o suministrados por terceros diferentes de la Empresa. Toda responsabilidad 
+											será del tercero ya sea proveedor o colaborador.
+										</p>
+										<p><strong>6. Propiedad intelectual e industrial</strong></p>
+										<p>
+											Todos los contenidos, marcas, logos, dibujos, documentación, programas informáticos o cualquier otro elemento 
+											susceptible de protección por la legislación de propiedad intelectual o industrial, que sean accesibles en el 
+											portal corresponden exclusivamente a la empresa o a sus legítimos titulares y quedan expresamente reservados todos 
+											los derechos sobre los mismos. Queda expresamente prohibida la creación de enlaces de hipertexto (links) a 
+											cualquier elemento integrante de las páginas web del Portal sin la autorización de la empresa, siempre que no sean 
+											a una página web del Portal que no requiera identificación o autenticación para su acceso, o el mismo esté 
+											restringido.
+										</p>
+										<p>
+											En cualquier caso, el portal se reserva todos los derechos sobre los contenidos, información datos y servicios que 
+											ostente sobre los mismos. El portal no concede ninguna licencia o autorización de uso al usuario sobre sus 
+											contenidos, datos o servicios, distinta de la que expresamente se detalle en las presentes condiciones generales de 
+											uso del portal.
+										</p>
+										<p><strong>7. Legislación aplicable, jurisdicción competente y notificaciones</strong></p>
+										<p>
+											Las presentes condiciones se rigen y se interpretan de acuerdo con las Leyes de España. Para cualquier reclamación 
+											serán competentes los juzgados y tribunales de (indicar la ciudad). Todas las notificaciones, requerimientos, 
+											peticiones y otras comunicaciones que el Usuario desee efectuar a la Empresa titular del Portal deberán realizarse 
+											por escrito y se entenderá que han sido correctamente realizadas cuando hayan sido recibidas en la siguiente 
+											dirección (indicar dirección de correo en la que se desean recibir las notificaciones).
+										</p>
+									</div>
+									<div class="modal-footer">
+										<button id="btnMasterCerrar" runat="server" type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="modal fade" id="modalMensaje" role="dialog">
+							<div class="modal-dialog">
+								<asp:UpdatePanel ID="upModal" runat="server" ChildrenAsTriggers="false" UpdateMode="Conditional">
+									<ContentTemplate>
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+												<h4 class="modal-title" id="lblMasterModalMensajeTitulo" runat="server"></h4>
+											</div>
+											<div class="modal-body">
+												<asp:Label ID="lblMasterModalMensajeMensaje" runat="server" Text=""></asp:Label>
+											</div>
+											<div class="modal-footer">
+												<button id="botonNotificacionAceptar" runat="server" type="button" class="btn btn-primary" data-dismiss="modal">
+												</button>
+											</div>
+										</div>
+									</ContentTemplate>
+								</asp:UpdatePanel>
+							</div>
+						</div>
+
+					</div>
+					<!--/.navbar-collapse -->
+					<ul id="ulMasterControlesMenu" runat="server" class="nav navbar-nav navbar-left">
+						<li><a href="AsignacionRoles.aspx" id="AR" runat="server"></a></li>
+						<li><a href="Bitacora.aspx" id="BIT" runat="server"></a></li>
+						<li><a href="BackUpRestore.aspx" id="BR" runat="server"></a></li>
+						<li><a href="GestionCatalogo.aspx" id="CAT" runat="server"></a></li>
+						<li><a href="Catalogo.aspx" id="CATNAV" runat="server"></a></li>
+						<li><a href="CuentaCorriente.aspx" id="CC" runat="server"></a></li>
+						<li><a href="Encuestas.aspx" id="ENC" runat="server"></a></li>
+						<li><a href="GestionEncuestas.aspx" id="GE" runat="server"></a></li>
+						<li><a href="GestionNoticias.aspx" id="GN" runat="server"></a></li>
+						<li><a href="ConfiguracionInvernadero.aspx" id="CONINVNAV" runat="server"></a></li>
+						<li><a href="DatosPersonales.aspx" id="DP" runat="server"></a></li>
+						<li><a href="Inicio.aspx" id="INI" runat="server"></a></li>
+						<li><a href="Instalaciones.aspx" id="INST" runat="server"></a></li>
+						<li><a href="InformacionSensores.aspx" id="ISE" runat="server"></a></li>
+						<li><a href="Sensores.aspx" id="SEN" runat="server"></a></li>
+						<li><a href="Multidioma.aspx" id="MI" runat="server"></a></li>
+						<li><a href="Newsletter.aspx" id="NEW" runat="server"></a></li>
+						<li><a href="Productos.aspx" id="PROD" runat="server"></a></li>
+						<li><a href="Pedidos.aspx" id="PED" runat="server"></a></li>
+						<li><a href="PerfilUsuario.aspx" id="PU" runat="server"></a></li>
+						<li><a href="Noticias.aspx" id="NOTI" runat="server"></a></li>
+						<li><a href="QuienesSomos.aspx" id="QS" runat="server"></a></li>
+						<li><a href="Registracion.aspx" id="REG" runat="server"></a></li>
+						<li><a href="ReporteVentas.aspx" id="RV" runat="server"></a></li>
+						<li><a href="ReporteEncuesta.aspx" id="REPENC" runat="server"></a></li>
+						<li><a href="ReporteFichaOpinion.aspx" id="REPFO" runat="server"></a></li>
+						<li><a href="ReporteCancelacion.aspx" id="REPCAN" runat="server"></a></li>
+						<li><a href="SeguridadUsuarios.aspx" id="SU" runat="server"></a></li>
+						<li><a href="Usuarios.aspx" id="USU" runat="server"></a></li>
+						<li><a href="RecuperoContrasena.aspx" id="RC" runat="server"></a></li>
+						<li><a href="Chat.aspx" id="CHAT" runat="server"></a></li>
+						<li><a href="DetalleProducto.aspx" id="PD" runat="server"></a></li>
+						<li><a href="CompararProductos.aspx" id="CP" runat="server"></a></li>
+						<li><a href="Comprar.aspx" id="COM" runat="server"></a></li>
+						<li><a href="Compras.aspx" id="COMS" runat="server"></a></li>
+						<li><a href="FAQ.aspx" id="FAQ" runat="server"></a></li>
+					</ul>
+					<div class="nav navbar-nav navbar-right">
+						<div id="divMasterAlerta" runat="server" class="alert alert-danger" role="alert"></div>
+						<div class="form-group">
+							<asp:RegularExpressionValidator ID="revCorreoElectronico" runat="server"
+								ControlToValidate="txtMasterEmail"
+								ValidationExpression="^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$" ForeColor="Red" Font-Bold="true">
+							</asp:RegularExpressionValidator>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--/.navbar-collapse -->
+		</nav>
+		<asp:ContentPlaceHolder ID="Main" runat="server">
+		</asp:ContentPlaceHolder>
+		<br />
+		<footer id="Footer1" class="footer" runat="server">
+			<div class="row">
+				<div class="col-md-5">
+					<div class="encabezado">
+						Información de contacto
+					</div>
+					<br />
+					<p><b>Correo Electrónico: </b>info.invernar@gmail.com</p>
+					<p><b>Teléfono: </b>+54 11 4444-4444</p>
+					<p>
+						<a id="aMasterSuscribirseNewsletter" runat="server" href="#" onclick="$('#ModalNewsletter').modal();" tabindex="99">Suscribirse al 
+						Newsletter</a>
+					</p>
+				</div>
+				<div class="col-md-4">
+					<div class="encabezado">
+						Información de sitio
+					</div>
+					<br />
+					<a id="aMasterTerminosCondiciones" runat="server" href="#" onclick="$('#modalTC').modal({backdrop: 'static', keyboard: false});" tabindex="99">Terminos y Condiciones</a><br />
+					<a id="aMasterPoliticasPrivacidad" runat="server" href="archivos/LeydeProteccióndeDatosPersonales.pdf" target="_blank">Políticas de 
+						privacidad y seguridad</a><br />
+					<a id="aMasterFAQ" runat="server" href="FAQ.aspx">FAQ</a><br />
+
+					© Invernar 2016
+				</div>
+				<div class="col-md-3">
+					<div class="dropdown">
+						<div class="encabezado">Cambiar Idioma</div>
+						<br />
+						<asp:DropDownList OnSelectedIndexChanged="ddlMasterIdiomas_SelectedIndexChanged" class="form-control" ID="ddlMasterIdiomas" AutoPostBack="true" runat="server"></asp:DropDownList>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</form>
+</body>
+</html>
+

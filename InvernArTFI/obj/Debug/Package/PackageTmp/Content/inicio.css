@@ -1,0 +1,23 @@
+﻿
+#divInicioContenedor {
+    padding-bottom: 15px;
+    width: 100%;
+    background-color: currentColor;
+    background-image: url('images/Pasto 01.jpg');
+}
+
+.InicioContenedor {
+    font-size: 66px;
+    text-align: center;
+    height: 68px;
+    
+}
+
+.InvernaderosAutomatizadosTexto {
+    text-align: center;
+    color:white;
+}
+
+#InvernAr {
+    color: white;
+}

@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title></title>
+	<style>
+		.container {
+			width: 1000px;
+			padding-left: 40px;
+		}
+
+		.encabezado {
+			font-family: arial, sans-serif;
+		}
+
+		.titulo {
+			font-family: arial, sans-serif;
+			font-weight: bold;
+			font-size: 20px;
+		}
+
+		.table {
+			font-family: arial, sans-serif;
+			border-collapse: collapse;
+		}
+
+		.td {
+			border: 1px solid #dddddd;
+			text-align: left;
+			padding: 8px;
+		}
+
+		th {
+			border: 1px solid #dddddd;
+			text-align: left;
+			padding-left: 8px;
+		}
+
+		.tr:nth-child(even) {
+			background-color: #dddddd;
+		}
+	</style>
+</head>
+<body>
+	<br />
+	<div style="border: 1px solid black; border-radius: 6px; height: 100px; margin-left: 50px; margin-right: 50px;">
+		<table>
+			<tr>
+				<td style="padding-top: 28px; margin-left: 50px; margin-right: 50px; padding-left: 20px;" rowspan="2">
+					<label class="encabezado" style="font-size: 30px; font-weight: bold;">InvernAr</label>
+				</td>
+				<td style="padding-top: 28px; text-align: center; width: 250px; text-align: right;" rowspan="3">
+					<label class="encabezado" style="font-weight: bold;">Comprobante eléctronico</label>
+				</td>
+				<td style="text-align: right; width: 400px;">
+					<label class="encabezado" style="font-size: 20px; font-weight: bold;">Factura</label>
+				</td>
+			</tr>
+			<tr>
+				<td style="text-align: right; width: 400px;">
+					<label class="encabezado">Nº {IdFactura}</label>
+				</td>
+			</tr>
+			<tr>
+				<td style="padding-left: 20px;">
+					<label class="encabezado">Invernaderos Automatizados</label>
+				</td>
+				<td style="text-align: right; width: 400px;">
+					<label class="encabezado">Fecha: {Fecha}</label>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<br />
+	<div style="border: 1px solid black; border-radius: 6px; height: 120px; margin-left: 50px; margin-right: 50px;">
+		<table style="width: 800px;">
+			<tr>
+				<td style="padding-top: 10px;">
+					<label class="encabezado" style="padding-left: 20px; text-align: right; font-weight: bold; font-size: 20px;">InvernAr</label>
+				</td>
+				<td style="padding-top: 10px; text-align: right;">
+					<label class="encabezado" style="padding-left: 20px;">Inicio de actividades: 03/01/2016</label>
+				</td>
+			</tr>
+			<tr>
+				<td style="padding-top: 10px;">
+					<label class="encabezado" style="padding-left: 20px; text-align: right;">Av. Cabildo 9999, CABA, Buenos Aires, Argentina</label>
+				</td>
+				<td style="padding-top: 10px; text-align: right;">
+					<label class="encabezado" style="padding-left: 20px;">Tel: (011) 4444-4444</label>
+				</td>
+			</tr>
+			<tr>
+				<td style="padding-top: 10px;">
+					<label class="encabezado" style="padding-left: 20px; text-align: right;">CUIT: 88-77777777-6</label>
+				</td>
+				<td style="padding-top: 10px; text-align: right;">
+					<label class="encabezado" style="padding-left: 20px;">Correo electrónico: info.invernar@gmail.com</label>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<br />
+	<div style="border: 1px solid black; border-radius: 6px; height: 120px; margin-left: 50px; margin-right: 50px;">
+		<table style="width: 800px;">
+			<tr>
+				<td style="padding-top: 10px;">
+					<label class="encabezado" style="padding-left: 20px;"><b>Cliente:</b> {NombreCompleto}</label>
+				</td>
+				<td style="padding-top: 10px;">
+					<label class="encabezado" style="padding-left: 20px;"><b>Domicilio:</b> {Domicilio}</label>
+				</td>
+			</tr>
+			<tr>
+				<td style="padding-top: 10px;">
+					<label class="encabezado" style="padding-left: 20px;"><b>CUIT:</b> {CUIT}</label>
+				</td>
+				<td style="padding-top: 10px;">
+					<label class="encabezado" style="padding-left: 20px;"><b>Localidad:</b> {Localidad}</label>
+				</td>
+			</tr>
+			<tr>
+				<td style="padding-top: 10px;">
+					<label class="encabezado" style="padding-left: 20px;"><b>Correo electrónico:</b> {CorreoElectronico}</label>
+				</td>
+				<td style="padding-top: 10px;">
+					<label class="encabezado" style="padding-left: 20px;"><b>Provincia: </b> {Provincia}</label>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<br />
+	<br />
+	<div style="padding-left: 50px;">
+		<table class="table">
+			<tr>
+				<th style="width: 400px;">Producto</th>
+				<th style="width: 160px;">Precio Unitario</th>
+				<th style="width: 150px;">Cantidad</th>
+				<th style="width: 160px;">Precio</th>
+			</tr>
+			{FacturaDetalle}	
+		</table>
+	</div>
+
+	<br />
+	<label class="encabezado" style="padding-left: 750px;">Total: {Total}</label>
+</body>
+</html>

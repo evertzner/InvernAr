@@ -1,0 +1,158 @@
+﻿#divInicioContenedor {
+    padding-bottom: 15px;
+    width: 100%;
+    background-color: currentColor;
+    background-image: url('/images/Pasto 01.jpg');
+}
+
+.InicioContenedor {
+    font-size: 66px;
+    text-align: center;
+    height: 68px;
+}
+
+.InvernaderosAutomatizadosTexto {
+    text-align: center;
+    color:white;
+}
+
+#InvernAr {
+    color: white;
+}
+
+#gardenLbl {
+    color: #9bbf17;
+}
+
+#ContentPlaceHolder1_jardinesVerticalesLbl {
+    font-size: 30px;
+    color: lemonchiffon;
+}
+
+
+/* Slider */
+
+.jssorb05 {
+    position: absolute;
+}
+
+    .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+        position: absolute;
+        /* size of bullet elment */
+        width: 16px;
+        height: 16px;
+        background: url('/images/b05.png') no-repeat;
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+    .jssorb05 div {
+        background-position: -7px -7px;
+    }
+
+        .jssorb05 div:hover, .jssorb05 .av:hover {
+            background-position: -37px -7px;
+        }
+
+    .jssorb05 .av {
+        background-position: -67px -7px;
+    }
+
+    .jssorb05 .dn, .jssorb05 .dn:hover {
+        background-position: -97px -7px;
+    }
+
+.jssora22l, .jssora22r {
+    display: block;
+    position: absolute;
+    /* size of arrow element */
+    width: 40px;
+    height: 58px;
+    cursor: pointer;
+    background: url('/images/a22.png') center center no-repeat;
+    overflow: hidden;
+}
+
+.jssora22l {
+    background-position: -10px -31px;
+}
+
+.jssora22r {
+    background-position: -70px -31px;
+}
+
+.jssora22l:hover {
+    background-position: -130px -31px;
+}
+
+.jssora22r:hover {
+    background-position: -190px -31px;
+}
+
+.jssora22l.jssora22ldn {
+    background-position: -250px -31px;
+}
+
+.jssora22r.jssora22rdn {
+    background-position: -310px -31px;
+}
+
+/* Fin slider */
+
+/* beneficios */
+
+.beneficios {
+    margin-top: 15px;
+    padding-bottom: 15px;
+    padding-top: 45px;
+    border-top: 2px solid #c1c1c1;
+    border-bottom: 2px solid #c1c1c1;
+    width: 100%;
+    text-align: justify;
+}
+
+.col-beneficio {
+    height: 200px;
+}
+
+.icon-content {
+    width: 80px;
+    height: 80px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 3px solid #262626;
+    float: left;
+    margin: 0 10px 0 0;
+    text-align: center;
+}
+
+    .icon-content span {
+        color: #003300;
+        font-size: 36px;
+        margin: 18px 0 0;
+        display: block;
+    }
+
+.text-content {
+}
+
+/* fin beneficios */
+
+/* Contenidos */
+#contenido {
+    margin-top: 30px;
+    margin-bottom: 45px;
+    text-align: justify;
+}
+
+.encabezado {
+    font-size:20px;
+}
+/* Fin contenidos */
+
+
+/* footer */
+
+
+/* fin footer */

@@ -1,0 +1,24 @@
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernAr\ENTITIES\bin\Debug\ENTITIES.dll
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernAr\ENTITIES\bin\Debug\ENTITIES.pdb
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernAr\ENTITIES\bin\Debug\ENTITIES.xml
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernAr\ENTITIES\obj\Debug\ENTITIES.Resources.resources
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernAr\ENTITIES\obj\Debug\ENTITIES.vbproj.GenerateResource.Cache
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernAr\ENTITIES\obj\Debug\ENTITIES.dll
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernAr\ENTITIES\obj\Debug\ENTITIES.xml
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernAr\ENTITIES\obj\Debug\ENTITIES.pdb
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernArTFI\ENTITIES\bin\Debug\ENTITIES.dll
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernArTFI\ENTITIES\bin\Debug\ENTITIES.pdb
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernArTFI\ENTITIES\bin\Debug\ENTITIES.xml
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernArTFI\ENTITIES\obj\Debug\ENTITIES.Resources.resources
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernArTFI\ENTITIES\obj\Debug\ENTITIES.vbproj.GenerateResource.Cache
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernArTFI\ENTITIES\obj\Debug\ENTITIES.dll
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernArTFI\ENTITIES\obj\Debug\ENTITIES.xml
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernArTFI\ENTITIES\obj\Debug\ENTITIES.pdb
+C:\Users\Esteban\Desktop\InvernArTFI\ENTITIES\bin\Debug\ENTITIES.dll
+C:\Users\Esteban\Desktop\InvernArTFI\ENTITIES\bin\Debug\ENTITIES.pdb
+C:\Users\Esteban\Desktop\InvernArTFI\ENTITIES\bin\Debug\ENTITIES.xml
+C:\Users\Esteban\Desktop\InvernArTFI\ENTITIES\obj\Debug\ENTITIES.Resources.resources
+C:\Users\Esteban\Desktop\InvernArTFI\ENTITIES\obj\Debug\ENTITIES.vbproj.GenerateResource.Cache
+C:\Users\Esteban\Desktop\InvernArTFI\ENTITIES\obj\Debug\ENTITIES.dll
+C:\Users\Esteban\Desktop\InvernArTFI\ENTITIES\obj\Debug\ENTITIES.xml
+C:\Users\Esteban\Desktop\InvernArTFI\ENTITIES\obj\Debug\ENTITIES.pdb

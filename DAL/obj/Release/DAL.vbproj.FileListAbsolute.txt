@@ -1,0 +1,8 @@
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernArTFI\DAL\bin\Release\DAL.dll
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernArTFI\DAL\bin\Release\DAL.pdb
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernArTFI\DAL\bin\Release\DAL.xml
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernArTFI\DAL\obj\Release\DAL.Resources.resources
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernArTFI\DAL\obj\Release\DAL.vbproj.GenerateResource.Cache
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernArTFI\DAL\obj\Release\DAL.dll
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernArTFI\DAL\obj\Release\DAL.xml
+C:\Users\Esteban\Documents\Visual Studio 2012\Projects\InvernArTFI\DAL\obj\Release\DAL.pdb
